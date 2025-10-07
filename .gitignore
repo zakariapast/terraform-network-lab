@@ -1,0 +1,14 @@
+# Ignore local Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Ignore generated configs and temp files
+configs/
+*.cfg
+*.log
+
+# Ignore any environment or credential files
+*.env
+*.secret
